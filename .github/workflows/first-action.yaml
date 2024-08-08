@@ -8,3 +8,7 @@ jobs:
         run: echo "Hello World"
       - name: done by
         run: echo "bye"
+      - name: info
+        run: |
+          echo "This is Vinod"
+          echo "This is Vulavakayala"
