@@ -1,0 +1,10 @@
+name: First Workflow
+on: workflow_dispatch  # make sure the event trigger manually
+jobs: 
+  first-job: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: print greeting
+        run: echo "Hello World"
+      - name: done by
+        run: echo "bye"
